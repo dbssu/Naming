@@ -75,6 +75,7 @@
             this.day25 = new System.Windows.Forms.RadioButton();
             this.btResult = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.month.SuspendLayout();
             this.day.SuspendLayout();
             this.SuspendLayout();
@@ -635,11 +636,22 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "오타쿠식 이름짓기";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Noto Sans CJK KR Black", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label2.Location = new System.Drawing.Point(12, 512);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(117, 52);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "결과 : ";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(601, 609);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btResult);
             this.Controls.Add(this.day);
@@ -704,6 +716,7 @@
         private System.Windows.Forms.RadioButton day6;
         private System.Windows.Forms.Button btResult;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
