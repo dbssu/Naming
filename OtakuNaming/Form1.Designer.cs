@@ -29,43 +29,19 @@
         private void InitializeComponent()
         {
             this.month = new System.Windows.Forms.GroupBox();
-            this.month1 = new System.Windows.Forms.RadioButton();
-            this.month2 = new System.Windows.Forms.RadioButton();
-            this.month3 = new System.Windows.Forms.RadioButton();
-            this.month4 = new System.Windows.Forms.RadioButton();
-            this.month5 = new System.Windows.Forms.RadioButton();
-            this.month6 = new System.Windows.Forms.RadioButton();
-            this.month7 = new System.Windows.Forms.RadioButton();
-            this.month8 = new System.Windows.Forms.RadioButton();
-            this.month9 = new System.Windows.Forms.RadioButton();
-            this.month10 = new System.Windows.Forms.RadioButton();
-            this.month11 = new System.Windows.Forms.RadioButton();
             this.month12 = new System.Windows.Forms.RadioButton();
+            this.month11 = new System.Windows.Forms.RadioButton();
+            this.month10 = new System.Windows.Forms.RadioButton();
+            this.month9 = new System.Windows.Forms.RadioButton();
+            this.month8 = new System.Windows.Forms.RadioButton();
+            this.month7 = new System.Windows.Forms.RadioButton();
+            this.month6 = new System.Windows.Forms.RadioButton();
+            this.month5 = new System.Windows.Forms.RadioButton();
+            this.month4 = new System.Windows.Forms.RadioButton();
+            this.month3 = new System.Windows.Forms.RadioButton();
+            this.month2 = new System.Windows.Forms.RadioButton();
+            this.month1 = new System.Windows.Forms.RadioButton();
             this.day = new System.Windows.Forms.GroupBox();
-            this.day12 = new System.Windows.Forms.RadioButton();
-            this.day11 = new System.Windows.Forms.RadioButton();
-            this.day10 = new System.Windows.Forms.RadioButton();
-            this.day9 = new System.Windows.Forms.RadioButton();
-            this.day8 = new System.Windows.Forms.RadioButton();
-            this.day7 = new System.Windows.Forms.RadioButton();
-            this.day6 = new System.Windows.Forms.RadioButton();
-            this.day5 = new System.Windows.Forms.RadioButton();
-            this.day4 = new System.Windows.Forms.RadioButton();
-            this.day3 = new System.Windows.Forms.RadioButton();
-            this.day2 = new System.Windows.Forms.RadioButton();
-            this.day1 = new System.Windows.Forms.RadioButton();
-            this.day24 = new System.Windows.Forms.RadioButton();
-            this.day23 = new System.Windows.Forms.RadioButton();
-            this.day22 = new System.Windows.Forms.RadioButton();
-            this.day21 = new System.Windows.Forms.RadioButton();
-            this.day20 = new System.Windows.Forms.RadioButton();
-            this.day19 = new System.Windows.Forms.RadioButton();
-            this.day18 = new System.Windows.Forms.RadioButton();
-            this.day17 = new System.Windows.Forms.RadioButton();
-            this.day16 = new System.Windows.Forms.RadioButton();
-            this.day15 = new System.Windows.Forms.RadioButton();
-            this.day14 = new System.Windows.Forms.RadioButton();
-            this.day13 = new System.Windows.Forms.RadioButton();
             this.day31 = new System.Windows.Forms.RadioButton();
             this.day30 = new System.Windows.Forms.RadioButton();
             this.day29 = new System.Windows.Forms.RadioButton();
@@ -73,6 +49,30 @@
             this.day27 = new System.Windows.Forms.RadioButton();
             this.day26 = new System.Windows.Forms.RadioButton();
             this.day25 = new System.Windows.Forms.RadioButton();
+            this.day24 = new System.Windows.Forms.RadioButton();
+            this.day12 = new System.Windows.Forms.RadioButton();
+            this.day23 = new System.Windows.Forms.RadioButton();
+            this.day5 = new System.Windows.Forms.RadioButton();
+            this.day22 = new System.Windows.Forms.RadioButton();
+            this.day11 = new System.Windows.Forms.RadioButton();
+            this.day21 = new System.Windows.Forms.RadioButton();
+            this.day1 = new System.Windows.Forms.RadioButton();
+            this.day20 = new System.Windows.Forms.RadioButton();
+            this.day10 = new System.Windows.Forms.RadioButton();
+            this.day19 = new System.Windows.Forms.RadioButton();
+            this.day2 = new System.Windows.Forms.RadioButton();
+            this.day18 = new System.Windows.Forms.RadioButton();
+            this.day9 = new System.Windows.Forms.RadioButton();
+            this.day17 = new System.Windows.Forms.RadioButton();
+            this.day3 = new System.Windows.Forms.RadioButton();
+            this.day16 = new System.Windows.Forms.RadioButton();
+            this.day8 = new System.Windows.Forms.RadioButton();
+            this.day15 = new System.Windows.Forms.RadioButton();
+            this.day4 = new System.Windows.Forms.RadioButton();
+            this.day14 = new System.Windows.Forms.RadioButton();
+            this.day13 = new System.Windows.Forms.RadioButton();
+            this.day7 = new System.Windows.Forms.RadioButton();
+            this.day6 = new System.Windows.Forms.RadioButton();
             this.btResult = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -102,115 +102,16 @@
             this.month.TabStop = false;
             this.month.Text = "태어난 달";
             // 
-            // month1
+            // month12
             // 
-            this.month1.AutoSize = true;
-            this.month1.Location = new System.Drawing.Point(6, 20);
-            this.month1.Name = "month1";
-            this.month1.Size = new System.Drawing.Size(46, 23);
-            this.month1.TabIndex = 0;
-            this.month1.TabStop = true;
-            this.month1.Text = "1월";
-            this.month1.UseVisualStyleBackColor = true;
-            // 
-            // month2
-            // 
-            this.month2.AutoSize = true;
-            this.month2.Location = new System.Drawing.Point(6, 42);
-            this.month2.Name = "month2";
-            this.month2.Size = new System.Drawing.Size(46, 23);
-            this.month2.TabIndex = 1;
-            this.month2.TabStop = true;
-            this.month2.Text = "2월";
-            this.month2.UseVisualStyleBackColor = true;
-            // 
-            // month3
-            // 
-            this.month3.AutoSize = true;
-            this.month3.Location = new System.Drawing.Point(6, 64);
-            this.month3.Name = "month3";
-            this.month3.Size = new System.Drawing.Size(46, 23);
-            this.month3.TabIndex = 2;
-            this.month3.TabStop = true;
-            this.month3.Text = "3월";
-            this.month3.UseVisualStyleBackColor = true;
-            // 
-            // month4
-            // 
-            this.month4.AutoSize = true;
-            this.month4.Location = new System.Drawing.Point(6, 86);
-            this.month4.Name = "month4";
-            this.month4.Size = new System.Drawing.Size(46, 23);
-            this.month4.TabIndex = 3;
-            this.month4.TabStop = true;
-            this.month4.Text = "4월";
-            this.month4.UseVisualStyleBackColor = true;
-            // 
-            // month5
-            // 
-            this.month5.AutoSize = true;
-            this.month5.Location = new System.Drawing.Point(6, 108);
-            this.month5.Name = "month5";
-            this.month5.Size = new System.Drawing.Size(46, 23);
-            this.month5.TabIndex = 4;
-            this.month5.TabStop = true;
-            this.month5.Text = "5월";
-            this.month5.UseVisualStyleBackColor = true;
-            // 
-            // month6
-            // 
-            this.month6.AutoSize = true;
-            this.month6.Location = new System.Drawing.Point(6, 130);
-            this.month6.Name = "month6";
-            this.month6.Size = new System.Drawing.Size(46, 23);
-            this.month6.TabIndex = 5;
-            this.month6.TabStop = true;
-            this.month6.Text = "6월";
-            this.month6.UseVisualStyleBackColor = true;
-            // 
-            // month7
-            // 
-            this.month7.AutoSize = true;
-            this.month7.Location = new System.Drawing.Point(6, 152);
-            this.month7.Name = "month7";
-            this.month7.Size = new System.Drawing.Size(46, 23);
-            this.month7.TabIndex = 6;
-            this.month7.TabStop = true;
-            this.month7.Text = "7월";
-            this.month7.UseVisualStyleBackColor = true;
-            // 
-            // month8
-            // 
-            this.month8.AutoSize = true;
-            this.month8.Location = new System.Drawing.Point(6, 174);
-            this.month8.Name = "month8";
-            this.month8.Size = new System.Drawing.Size(46, 23);
-            this.month8.TabIndex = 7;
-            this.month8.TabStop = true;
-            this.month8.Text = "8월";
-            this.month8.UseVisualStyleBackColor = true;
-            // 
-            // month9
-            // 
-            this.month9.AutoSize = true;
-            this.month9.Location = new System.Drawing.Point(6, 196);
-            this.month9.Name = "month9";
-            this.month9.Size = new System.Drawing.Size(46, 23);
-            this.month9.TabIndex = 8;
-            this.month9.TabStop = true;
-            this.month9.Text = "9월";
-            this.month9.UseVisualStyleBackColor = true;
-            // 
-            // month10
-            // 
-            this.month10.AutoSize = true;
-            this.month10.Location = new System.Drawing.Point(6, 218);
-            this.month10.Name = "month10";
-            this.month10.Size = new System.Drawing.Size(53, 23);
-            this.month10.TabIndex = 9;
-            this.month10.TabStop = true;
-            this.month10.Text = "10월";
-            this.month10.UseVisualStyleBackColor = true;
+            this.month12.AutoSize = true;
+            this.month12.Location = new System.Drawing.Point(6, 262);
+            this.month12.Name = "month12";
+            this.month12.Size = new System.Drawing.Size(53, 23);
+            this.month12.TabIndex = 11;
+            this.month12.TabStop = true;
+            this.month12.Text = "12월";
+            this.month12.UseVisualStyleBackColor = true;
             // 
             // month11
             // 
@@ -223,16 +124,115 @@
             this.month11.Text = "11월";
             this.month11.UseVisualStyleBackColor = true;
             // 
-            // month12
+            // month10
             // 
-            this.month12.AutoSize = true;
-            this.month12.Location = new System.Drawing.Point(6, 262);
-            this.month12.Name = "month12";
-            this.month12.Size = new System.Drawing.Size(53, 23);
-            this.month12.TabIndex = 11;
-            this.month12.TabStop = true;
-            this.month12.Text = "12월";
-            this.month12.UseVisualStyleBackColor = true;
+            this.month10.AutoSize = true;
+            this.month10.Location = new System.Drawing.Point(6, 218);
+            this.month10.Name = "month10";
+            this.month10.Size = new System.Drawing.Size(53, 23);
+            this.month10.TabIndex = 9;
+            this.month10.TabStop = true;
+            this.month10.Text = "10월";
+            this.month10.UseVisualStyleBackColor = true;
+            // 
+            // month9
+            // 
+            this.month9.AutoSize = true;
+            this.month9.Location = new System.Drawing.Point(6, 196);
+            this.month9.Name = "month9";
+            this.month9.Size = new System.Drawing.Size(46, 23);
+            this.month9.TabIndex = 8;
+            this.month9.TabStop = true;
+            this.month9.Text = "9월";
+            this.month9.UseVisualStyleBackColor = true;
+            // 
+            // month8
+            // 
+            this.month8.AutoSize = true;
+            this.month8.Location = new System.Drawing.Point(6, 174);
+            this.month8.Name = "month8";
+            this.month8.Size = new System.Drawing.Size(46, 23);
+            this.month8.TabIndex = 7;
+            this.month8.TabStop = true;
+            this.month8.Text = "8월";
+            this.month8.UseVisualStyleBackColor = true;
+            // 
+            // month7
+            // 
+            this.month7.AutoSize = true;
+            this.month7.Location = new System.Drawing.Point(6, 152);
+            this.month7.Name = "month7";
+            this.month7.Size = new System.Drawing.Size(46, 23);
+            this.month7.TabIndex = 6;
+            this.month7.TabStop = true;
+            this.month7.Text = "7월";
+            this.month7.UseVisualStyleBackColor = true;
+            // 
+            // month6
+            // 
+            this.month6.AutoSize = true;
+            this.month6.Location = new System.Drawing.Point(6, 130);
+            this.month6.Name = "month6";
+            this.month6.Size = new System.Drawing.Size(46, 23);
+            this.month6.TabIndex = 5;
+            this.month6.TabStop = true;
+            this.month6.Text = "6월";
+            this.month6.UseVisualStyleBackColor = true;
+            // 
+            // month5
+            // 
+            this.month5.AutoSize = true;
+            this.month5.Location = new System.Drawing.Point(6, 108);
+            this.month5.Name = "month5";
+            this.month5.Size = new System.Drawing.Size(46, 23);
+            this.month5.TabIndex = 4;
+            this.month5.TabStop = true;
+            this.month5.Text = "5월";
+            this.month5.UseVisualStyleBackColor = true;
+            // 
+            // month4
+            // 
+            this.month4.AutoSize = true;
+            this.month4.Location = new System.Drawing.Point(6, 86);
+            this.month4.Name = "month4";
+            this.month4.Size = new System.Drawing.Size(46, 23);
+            this.month4.TabIndex = 3;
+            this.month4.TabStop = true;
+            this.month4.Text = "4월";
+            this.month4.UseVisualStyleBackColor = true;
+            // 
+            // month3
+            // 
+            this.month3.AutoSize = true;
+            this.month3.Location = new System.Drawing.Point(6, 64);
+            this.month3.Name = "month3";
+            this.month3.Size = new System.Drawing.Size(46, 23);
+            this.month3.TabIndex = 2;
+            this.month3.TabStop = true;
+            this.month3.Text = "3월";
+            this.month3.UseVisualStyleBackColor = true;
+            // 
+            // month2
+            // 
+            this.month2.AutoSize = true;
+            this.month2.Location = new System.Drawing.Point(6, 42);
+            this.month2.Name = "month2";
+            this.month2.Size = new System.Drawing.Size(46, 23);
+            this.month2.TabIndex = 1;
+            this.month2.TabStop = true;
+            this.month2.Text = "2월";
+            this.month2.UseVisualStyleBackColor = true;
+            // 
+            // month1
+            // 
+            this.month1.AutoSize = true;
+            this.month1.Location = new System.Drawing.Point(6, 20);
+            this.month1.Name = "month1";
+            this.month1.Size = new System.Drawing.Size(46, 23);
+            this.month1.TabIndex = 0;
+            this.month1.TabStop = true;
+            this.month1.Text = "1월";
+            this.month1.UseVisualStyleBackColor = true;
             // 
             // day
             // 
@@ -274,270 +274,6 @@
             this.day.TabIndex = 1;
             this.day.TabStop = false;
             this.day.Text = "태어난 날짜";
-            // 
-            // day12
-            // 
-            this.day12.AutoSize = true;
-            this.day12.Location = new System.Drawing.Point(6, 262);
-            this.day12.Name = "day12";
-            this.day12.Size = new System.Drawing.Size(53, 23);
-            this.day12.TabIndex = 23;
-            this.day12.TabStop = true;
-            this.day12.Text = "12일";
-            this.day12.UseVisualStyleBackColor = true;
-            // 
-            // day11
-            // 
-            this.day11.AutoSize = true;
-            this.day11.Location = new System.Drawing.Point(6, 240);
-            this.day11.Name = "day11";
-            this.day11.Size = new System.Drawing.Size(53, 23);
-            this.day11.TabIndex = 22;
-            this.day11.TabStop = true;
-            this.day11.Text = "11일";
-            this.day11.UseVisualStyleBackColor = true;
-            // 
-            // day10
-            // 
-            this.day10.AutoSize = true;
-            this.day10.Location = new System.Drawing.Point(6, 218);
-            this.day10.Name = "day10";
-            this.day10.Size = new System.Drawing.Size(53, 23);
-            this.day10.TabIndex = 21;
-            this.day10.TabStop = true;
-            this.day10.Text = "10일";
-            this.day10.UseVisualStyleBackColor = true;
-            // 
-            // day9
-            // 
-            this.day9.AutoSize = true;
-            this.day9.Location = new System.Drawing.Point(6, 196);
-            this.day9.Name = "day9";
-            this.day9.Size = new System.Drawing.Size(46, 23);
-            this.day9.TabIndex = 20;
-            this.day9.TabStop = true;
-            this.day9.Text = "9일";
-            this.day9.UseVisualStyleBackColor = true;
-            // 
-            // day8
-            // 
-            this.day8.AutoSize = true;
-            this.day8.Location = new System.Drawing.Point(6, 174);
-            this.day8.Name = "day8";
-            this.day8.Size = new System.Drawing.Size(46, 23);
-            this.day8.TabIndex = 19;
-            this.day8.TabStop = true;
-            this.day8.Text = "8일";
-            this.day8.UseVisualStyleBackColor = true;
-            // 
-            // day7
-            // 
-            this.day7.AutoSize = true;
-            this.day7.Location = new System.Drawing.Point(6, 152);
-            this.day7.Name = "day7";
-            this.day7.Size = new System.Drawing.Size(46, 23);
-            this.day7.TabIndex = 18;
-            this.day7.TabStop = true;
-            this.day7.Text = "7일";
-            this.day7.UseVisualStyleBackColor = true;
-            // 
-            // day6
-            // 
-            this.day6.AutoSize = true;
-            this.day6.Location = new System.Drawing.Point(6, 130);
-            this.day6.Name = "day6";
-            this.day6.Size = new System.Drawing.Size(46, 23);
-            this.day6.TabIndex = 17;
-            this.day6.TabStop = true;
-            this.day6.Text = "6일";
-            this.day6.UseVisualStyleBackColor = true;
-            // 
-            // day5
-            // 
-            this.day5.AutoSize = true;
-            this.day5.Location = new System.Drawing.Point(6, 108);
-            this.day5.Name = "day5";
-            this.day5.Size = new System.Drawing.Size(46, 23);
-            this.day5.TabIndex = 16;
-            this.day5.TabStop = true;
-            this.day5.Text = "5일";
-            this.day5.UseVisualStyleBackColor = true;
-            // 
-            // day4
-            // 
-            this.day4.AutoSize = true;
-            this.day4.Location = new System.Drawing.Point(6, 86);
-            this.day4.Name = "day4";
-            this.day4.Size = new System.Drawing.Size(46, 23);
-            this.day4.TabIndex = 15;
-            this.day4.TabStop = true;
-            this.day4.Text = "4일";
-            this.day4.UseVisualStyleBackColor = true;
-            // 
-            // day3
-            // 
-            this.day3.AutoSize = true;
-            this.day3.Location = new System.Drawing.Point(6, 64);
-            this.day3.Name = "day3";
-            this.day3.Size = new System.Drawing.Size(46, 23);
-            this.day3.TabIndex = 14;
-            this.day3.TabStop = true;
-            this.day3.Text = "3일";
-            this.day3.UseVisualStyleBackColor = true;
-            // 
-            // day2
-            // 
-            this.day2.AutoSize = true;
-            this.day2.Location = new System.Drawing.Point(6, 42);
-            this.day2.Name = "day2";
-            this.day2.Size = new System.Drawing.Size(46, 23);
-            this.day2.TabIndex = 13;
-            this.day2.TabStop = true;
-            this.day2.Text = "2일";
-            this.day2.UseVisualStyleBackColor = true;
-            // 
-            // day1
-            // 
-            this.day1.AutoSize = true;
-            this.day1.Location = new System.Drawing.Point(6, 20);
-            this.day1.Name = "day1";
-            this.day1.Size = new System.Drawing.Size(46, 23);
-            this.day1.TabIndex = 12;
-            this.day1.TabStop = true;
-            this.day1.Text = "1일";
-            this.day1.UseVisualStyleBackColor = true;
-            // 
-            // day24
-            // 
-            this.day24.AutoSize = true;
-            this.day24.Location = new System.Drawing.Point(110, 262);
-            this.day24.Name = "day24";
-            this.day24.Size = new System.Drawing.Size(53, 23);
-            this.day24.TabIndex = 23;
-            this.day24.TabStop = true;
-            this.day24.Text = "24일";
-            this.day24.UseVisualStyleBackColor = true;
-            // 
-            // day23
-            // 
-            this.day23.AutoSize = true;
-            this.day23.Location = new System.Drawing.Point(110, 240);
-            this.day23.Name = "day23";
-            this.day23.Size = new System.Drawing.Size(53, 23);
-            this.day23.TabIndex = 22;
-            this.day23.TabStop = true;
-            this.day23.Text = "23일";
-            this.day23.UseVisualStyleBackColor = true;
-            // 
-            // day22
-            // 
-            this.day22.AutoSize = true;
-            this.day22.Location = new System.Drawing.Point(110, 218);
-            this.day22.Name = "day22";
-            this.day22.Size = new System.Drawing.Size(53, 23);
-            this.day22.TabIndex = 21;
-            this.day22.TabStop = true;
-            this.day22.Text = "22일";
-            this.day22.UseVisualStyleBackColor = true;
-            // 
-            // day21
-            // 
-            this.day21.AutoSize = true;
-            this.day21.Location = new System.Drawing.Point(110, 196);
-            this.day21.Name = "day21";
-            this.day21.Size = new System.Drawing.Size(53, 23);
-            this.day21.TabIndex = 20;
-            this.day21.TabStop = true;
-            this.day21.Text = "21일";
-            this.day21.UseVisualStyleBackColor = true;
-            // 
-            // day20
-            // 
-            this.day20.AutoSize = true;
-            this.day20.Location = new System.Drawing.Point(110, 174);
-            this.day20.Name = "day20";
-            this.day20.Size = new System.Drawing.Size(53, 23);
-            this.day20.TabIndex = 19;
-            this.day20.TabStop = true;
-            this.day20.Text = "20일";
-            this.day20.UseVisualStyleBackColor = true;
-            // 
-            // day19
-            // 
-            this.day19.AutoSize = true;
-            this.day19.Location = new System.Drawing.Point(110, 152);
-            this.day19.Name = "day19";
-            this.day19.Size = new System.Drawing.Size(53, 23);
-            this.day19.TabIndex = 18;
-            this.day19.TabStop = true;
-            this.day19.Text = "19일";
-            this.day19.UseVisualStyleBackColor = true;
-            // 
-            // day18
-            // 
-            this.day18.AutoSize = true;
-            this.day18.Location = new System.Drawing.Point(110, 130);
-            this.day18.Name = "day18";
-            this.day18.Size = new System.Drawing.Size(53, 23);
-            this.day18.TabIndex = 17;
-            this.day18.TabStop = true;
-            this.day18.Text = "18일";
-            this.day18.UseVisualStyleBackColor = true;
-            // 
-            // day17
-            // 
-            this.day17.AutoSize = true;
-            this.day17.Location = new System.Drawing.Point(110, 108);
-            this.day17.Name = "day17";
-            this.day17.Size = new System.Drawing.Size(53, 23);
-            this.day17.TabIndex = 16;
-            this.day17.TabStop = true;
-            this.day17.Text = "17일";
-            this.day17.UseVisualStyleBackColor = true;
-            // 
-            // day16
-            // 
-            this.day16.AutoSize = true;
-            this.day16.Location = new System.Drawing.Point(110, 86);
-            this.day16.Name = "day16";
-            this.day16.Size = new System.Drawing.Size(53, 23);
-            this.day16.TabIndex = 15;
-            this.day16.TabStop = true;
-            this.day16.Text = "16일";
-            this.day16.UseVisualStyleBackColor = true;
-            // 
-            // day15
-            // 
-            this.day15.AutoSize = true;
-            this.day15.Location = new System.Drawing.Point(110, 64);
-            this.day15.Name = "day15";
-            this.day15.Size = new System.Drawing.Size(53, 23);
-            this.day15.TabIndex = 14;
-            this.day15.TabStop = true;
-            this.day15.Text = "15일";
-            this.day15.UseVisualStyleBackColor = true;
-            // 
-            // day14
-            // 
-            this.day14.AutoSize = true;
-            this.day14.Location = new System.Drawing.Point(110, 42);
-            this.day14.Name = "day14";
-            this.day14.Size = new System.Drawing.Size(53, 23);
-            this.day14.TabIndex = 13;
-            this.day14.TabStop = true;
-            this.day14.Text = "14일";
-            this.day14.UseVisualStyleBackColor = true;
-            // 
-            // day13
-            // 
-            this.day13.AutoSize = true;
-            this.day13.Location = new System.Drawing.Point(110, 20);
-            this.day13.Name = "day13";
-            this.day13.Size = new System.Drawing.Size(53, 23);
-            this.day13.TabIndex = 12;
-            this.day13.TabStop = true;
-            this.day13.Text = "13일";
-            this.day13.UseVisualStyleBackColor = true;
             // 
             // day31
             // 
@@ -616,6 +352,270 @@
             this.day25.Text = "25일";
             this.day25.UseVisualStyleBackColor = true;
             // 
+            // day24
+            // 
+            this.day24.AutoSize = true;
+            this.day24.Location = new System.Drawing.Point(110, 262);
+            this.day24.Name = "day24";
+            this.day24.Size = new System.Drawing.Size(53, 23);
+            this.day24.TabIndex = 23;
+            this.day24.TabStop = true;
+            this.day24.Text = "24일";
+            this.day24.UseVisualStyleBackColor = true;
+            // 
+            // day12
+            // 
+            this.day12.AutoSize = true;
+            this.day12.Location = new System.Drawing.Point(6, 262);
+            this.day12.Name = "day12";
+            this.day12.Size = new System.Drawing.Size(53, 23);
+            this.day12.TabIndex = 23;
+            this.day12.TabStop = true;
+            this.day12.Text = "12일";
+            this.day12.UseVisualStyleBackColor = true;
+            // 
+            // day23
+            // 
+            this.day23.AutoSize = true;
+            this.day23.Location = new System.Drawing.Point(110, 240);
+            this.day23.Name = "day23";
+            this.day23.Size = new System.Drawing.Size(53, 23);
+            this.day23.TabIndex = 22;
+            this.day23.TabStop = true;
+            this.day23.Text = "23일";
+            this.day23.UseVisualStyleBackColor = true;
+            // 
+            // day5
+            // 
+            this.day5.AutoSize = true;
+            this.day5.Location = new System.Drawing.Point(6, 108);
+            this.day5.Name = "day5";
+            this.day5.Size = new System.Drawing.Size(46, 23);
+            this.day5.TabIndex = 16;
+            this.day5.TabStop = true;
+            this.day5.Text = "5일";
+            this.day5.UseVisualStyleBackColor = true;
+            // 
+            // day22
+            // 
+            this.day22.AutoSize = true;
+            this.day22.Location = new System.Drawing.Point(110, 218);
+            this.day22.Name = "day22";
+            this.day22.Size = new System.Drawing.Size(53, 23);
+            this.day22.TabIndex = 21;
+            this.day22.TabStop = true;
+            this.day22.Text = "22일";
+            this.day22.UseVisualStyleBackColor = true;
+            // 
+            // day11
+            // 
+            this.day11.AutoSize = true;
+            this.day11.Location = new System.Drawing.Point(6, 240);
+            this.day11.Name = "day11";
+            this.day11.Size = new System.Drawing.Size(53, 23);
+            this.day11.TabIndex = 22;
+            this.day11.TabStop = true;
+            this.day11.Text = "11일";
+            this.day11.UseVisualStyleBackColor = true;
+            // 
+            // day21
+            // 
+            this.day21.AutoSize = true;
+            this.day21.Location = new System.Drawing.Point(110, 196);
+            this.day21.Name = "day21";
+            this.day21.Size = new System.Drawing.Size(53, 23);
+            this.day21.TabIndex = 20;
+            this.day21.TabStop = true;
+            this.day21.Text = "21일";
+            this.day21.UseVisualStyleBackColor = true;
+            // 
+            // day1
+            // 
+            this.day1.AutoSize = true;
+            this.day1.Location = new System.Drawing.Point(6, 20);
+            this.day1.Name = "day1";
+            this.day1.Size = new System.Drawing.Size(46, 23);
+            this.day1.TabIndex = 12;
+            this.day1.TabStop = true;
+            this.day1.Text = "1일";
+            this.day1.UseVisualStyleBackColor = true;
+            // 
+            // day20
+            // 
+            this.day20.AutoSize = true;
+            this.day20.Location = new System.Drawing.Point(110, 174);
+            this.day20.Name = "day20";
+            this.day20.Size = new System.Drawing.Size(53, 23);
+            this.day20.TabIndex = 19;
+            this.day20.TabStop = true;
+            this.day20.Text = "20일";
+            this.day20.UseVisualStyleBackColor = true;
+            // 
+            // day10
+            // 
+            this.day10.AutoSize = true;
+            this.day10.Location = new System.Drawing.Point(6, 218);
+            this.day10.Name = "day10";
+            this.day10.Size = new System.Drawing.Size(53, 23);
+            this.day10.TabIndex = 21;
+            this.day10.TabStop = true;
+            this.day10.Text = "10일";
+            this.day10.UseVisualStyleBackColor = true;
+            // 
+            // day19
+            // 
+            this.day19.AutoSize = true;
+            this.day19.Location = new System.Drawing.Point(110, 152);
+            this.day19.Name = "day19";
+            this.day19.Size = new System.Drawing.Size(53, 23);
+            this.day19.TabIndex = 18;
+            this.day19.TabStop = true;
+            this.day19.Text = "19일";
+            this.day19.UseVisualStyleBackColor = true;
+            // 
+            // day2
+            // 
+            this.day2.AutoSize = true;
+            this.day2.Location = new System.Drawing.Point(6, 42);
+            this.day2.Name = "day2";
+            this.day2.Size = new System.Drawing.Size(46, 23);
+            this.day2.TabIndex = 13;
+            this.day2.TabStop = true;
+            this.day2.Text = "2일";
+            this.day2.UseVisualStyleBackColor = true;
+            // 
+            // day18
+            // 
+            this.day18.AutoSize = true;
+            this.day18.Location = new System.Drawing.Point(110, 130);
+            this.day18.Name = "day18";
+            this.day18.Size = new System.Drawing.Size(53, 23);
+            this.day18.TabIndex = 17;
+            this.day18.TabStop = true;
+            this.day18.Text = "18일";
+            this.day18.UseVisualStyleBackColor = true;
+            // 
+            // day9
+            // 
+            this.day9.AutoSize = true;
+            this.day9.Location = new System.Drawing.Point(6, 196);
+            this.day9.Name = "day9";
+            this.day9.Size = new System.Drawing.Size(46, 23);
+            this.day9.TabIndex = 20;
+            this.day9.TabStop = true;
+            this.day9.Text = "9일";
+            this.day9.UseVisualStyleBackColor = true;
+            // 
+            // day17
+            // 
+            this.day17.AutoSize = true;
+            this.day17.Location = new System.Drawing.Point(110, 108);
+            this.day17.Name = "day17";
+            this.day17.Size = new System.Drawing.Size(53, 23);
+            this.day17.TabIndex = 16;
+            this.day17.TabStop = true;
+            this.day17.Text = "17일";
+            this.day17.UseVisualStyleBackColor = true;
+            // 
+            // day3
+            // 
+            this.day3.AutoSize = true;
+            this.day3.Location = new System.Drawing.Point(6, 64);
+            this.day3.Name = "day3";
+            this.day3.Size = new System.Drawing.Size(46, 23);
+            this.day3.TabIndex = 14;
+            this.day3.TabStop = true;
+            this.day3.Text = "3일";
+            this.day3.UseVisualStyleBackColor = true;
+            // 
+            // day16
+            // 
+            this.day16.AutoSize = true;
+            this.day16.Location = new System.Drawing.Point(110, 86);
+            this.day16.Name = "day16";
+            this.day16.Size = new System.Drawing.Size(53, 23);
+            this.day16.TabIndex = 15;
+            this.day16.TabStop = true;
+            this.day16.Text = "16일";
+            this.day16.UseVisualStyleBackColor = true;
+            // 
+            // day8
+            // 
+            this.day8.AutoSize = true;
+            this.day8.Location = new System.Drawing.Point(6, 174);
+            this.day8.Name = "day8";
+            this.day8.Size = new System.Drawing.Size(46, 23);
+            this.day8.TabIndex = 19;
+            this.day8.TabStop = true;
+            this.day8.Text = "8일";
+            this.day8.UseVisualStyleBackColor = true;
+            // 
+            // day15
+            // 
+            this.day15.AutoSize = true;
+            this.day15.Location = new System.Drawing.Point(110, 64);
+            this.day15.Name = "day15";
+            this.day15.Size = new System.Drawing.Size(53, 23);
+            this.day15.TabIndex = 14;
+            this.day15.TabStop = true;
+            this.day15.Text = "15일";
+            this.day15.UseVisualStyleBackColor = true;
+            // 
+            // day4
+            // 
+            this.day4.AutoSize = true;
+            this.day4.Location = new System.Drawing.Point(6, 86);
+            this.day4.Name = "day4";
+            this.day4.Size = new System.Drawing.Size(46, 23);
+            this.day4.TabIndex = 15;
+            this.day4.TabStop = true;
+            this.day4.Text = "4일";
+            this.day4.UseVisualStyleBackColor = true;
+            // 
+            // day14
+            // 
+            this.day14.AutoSize = true;
+            this.day14.Location = new System.Drawing.Point(110, 42);
+            this.day14.Name = "day14";
+            this.day14.Size = new System.Drawing.Size(53, 23);
+            this.day14.TabIndex = 13;
+            this.day14.TabStop = true;
+            this.day14.Text = "14일";
+            this.day14.UseVisualStyleBackColor = true;
+            // 
+            // day13
+            // 
+            this.day13.AutoSize = true;
+            this.day13.Location = new System.Drawing.Point(110, 20);
+            this.day13.Name = "day13";
+            this.day13.Size = new System.Drawing.Size(53, 23);
+            this.day13.TabIndex = 12;
+            this.day13.TabStop = true;
+            this.day13.Text = "13일";
+            this.day13.UseVisualStyleBackColor = true;
+            // 
+            // day7
+            // 
+            this.day7.AutoSize = true;
+            this.day7.Location = new System.Drawing.Point(6, 152);
+            this.day7.Name = "day7";
+            this.day7.Size = new System.Drawing.Size(46, 23);
+            this.day7.TabIndex = 18;
+            this.day7.TabStop = true;
+            this.day7.Text = "7일";
+            this.day7.UseVisualStyleBackColor = true;
+            // 
+            // day6
+            // 
+            this.day6.AutoSize = true;
+            this.day6.Location = new System.Drawing.Point(6, 130);
+            this.day6.Name = "day6";
+            this.day6.Size = new System.Drawing.Size(46, 23);
+            this.day6.TabIndex = 17;
+            this.day6.TabStop = true;
+            this.day6.Text = "6일";
+            this.day6.UseVisualStyleBackColor = true;
+            // 
             // btResult
             // 
             this.btResult.Font = new System.Drawing.Font("Noto Sans CJK KR Black", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
@@ -625,6 +625,7 @@
             this.btResult.TabIndex = 2;
             this.btResult.Text = "결과보기";
             this.btResult.UseVisualStyleBackColor = true;
+            this.btResult.Click += new System.EventHandler(this.btResult_Click);
             // 
             // label1
             // 
@@ -638,19 +639,16 @@
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Noto Sans CJK KR Black", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label2.Location = new System.Drawing.Point(12, 512);
+            this.label2.Location = new System.Drawing.Point(0, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(117, 52);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "결과 : ";
+            this.label2.Size = new System.Drawing.Size(100, 23);
+            this.label2.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(601, 609);
+            this.ClientSize = new System.Drawing.Size(601, 479);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btResult);
